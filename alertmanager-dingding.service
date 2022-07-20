@@ -1,0 +1,11 @@
+[Unit]
+Description=Prometheus dingding by lqx
+
+[Service]
+WorkingDirectory=/etc/dingding
+ExecStart=/usr/bin/env python3 ding.py
+Restart=always
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target 

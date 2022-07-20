@@ -1,0 +1,23 @@
+{
+  "appKey": "dingxxxx",
+  "appSecret": "aaxxxx",
+  "robotAppKey": "dingxxxx",
+  "robotAppSecret": "O-xxx",
+  "alertmanagerURL": "http://xxxx:9093",
+  "grafanaURL": "http://xxxx",
+  "grafanaPrefix": "http://localhost:3000",
+  "prometheusURL": "http://xxx",
+  "prometheusPrefix": "http://localhost:9090",
+  "single_groups": {
+    "default": [
+      {
+        "_comment1": "op",
+        "name": "liuliancao",
+        "mobile": "xxx"
+      }
+    ]
+  },
+  "webhooks": {
+    "消息测试群": "https://oapi.dingtalk.com/robot/send?access_token=xxx"
+  }
+}
